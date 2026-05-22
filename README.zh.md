@@ -13,7 +13,7 @@ pip install activity-finder
 从源码安装：
 
 ```bash
-git clone https://github.com/yourname/activity_finder.git
+git clone https://github.com/jaxonister/activity_finder.git
 cd activity_finder
 pip install -e .
 ```
