@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "activity-finder"
+version = "0.1.0"
+description = "Resolve Android app labels to launch activities via adb and aapt"
+requires-python = ">=3.10"
+dependencies = ["tqdm"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+activity-finder = "activity_finder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

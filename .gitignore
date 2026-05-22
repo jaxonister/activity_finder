@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+apps.db
+.idea/
+.claude/
+docs/
+CLAUDE.md
